@@ -49,7 +49,6 @@ public class Main {
     }
 
     private static void distinctAverageName(String[] strArr) {
-        // TODO:: неправильная логика длина имен должна быть другой
         Stream<String> stream = Arrays.stream(strArr);
         AtomicLong count = new AtomicLong();
         AtomicLong sum = new AtomicLong();
